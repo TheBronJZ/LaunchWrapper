@@ -32,3 +32,8 @@ jobs:
       uses: gradle/actions/setup-gradle@v3
       with:
         arguments: build
+    - name: Upload Artifacts to GitHub
+        uses: actions/upload-artifact@v3
+        with:
+          name: LaunchWrapper-TestBuild
+          path: build/libs/*.jar
