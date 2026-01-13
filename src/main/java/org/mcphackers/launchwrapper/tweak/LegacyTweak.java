@@ -33,7 +33,6 @@ import org.mcphackers.launchwrapper.tweak.injection.legacy.GameModeSwitch;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.IndevSaving;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.LWJGLPatch;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.LegacyTweakContext;
-import org.mcphackers.launchwrapper.tweak.injection.legacy.MouseFix;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.OptionsLoadFix;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.ReplaceGameDir;
 import org.mcphackers.launchwrapper.tweak.injection.legacy.UnlicensedCopyText;
@@ -78,7 +77,6 @@ public class LegacyTweak extends Tweak {
 			new BitDepthFix(context),
 			new LWJGLPatch(context),
 			new OutOfFocusFullscreen(context),
-			new MouseFix(context),
 			new ReplaceGameDir(context),
 			new OptionsLoadFix(context),
 			new GameModeSwitch(context),
